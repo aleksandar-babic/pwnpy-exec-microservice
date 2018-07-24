@@ -1,0 +1,16 @@
+{
+  "name": "pwnpy-exec-microservice",
+  "version": "1.0.0",
+  "description": "Microservice written in NodeJS that will run given python script in docker container and return STDOUT, STDERR.",
+  "main": "exec.js",
+  "repository": "git@github.com:aleksandar-babic/pwnpy-exec-microservice.git",
+  "author": "Aleksandar Babic <alekski64@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js exec.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "prettier": "^1.13.7"
+  }
+}
