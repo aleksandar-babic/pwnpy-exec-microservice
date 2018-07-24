@@ -12,5 +12,8 @@
   "devDependencies": {
     "nodemon": "^1.18.3",
     "prettier": "^1.13.7"
+  },
+  "dependencies": {
+    "raw-body": "^2.3.3"
   }
 }
