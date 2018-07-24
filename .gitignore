@@ -61,4 +61,4 @@ typings/
 .next
 
 # Temporary files that should be interpreted
-tmp/
+tmp/*.py
