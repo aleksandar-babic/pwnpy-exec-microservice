@@ -3,7 +3,7 @@
 I'm developing python learning app and it has playground mode where user can write any python code to see its output, so I needed way to safely run (potentially evil) python scripts, and get their STDOUT/STDERR.
 
 # How does it work?
-* This service will listen on http at given port from env variable, or fallback to `8081`.
+* This service will listen on http at given port from env variable(`PORT`), or fallback to `8081`.
 * When it recieves request with python file it will spawn docker container with python interpreter and run it.
 * Once execution is done, it will return `STDOUT`, `STDERR` and exit code.
 
